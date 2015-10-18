@@ -1,0 +1,26 @@
+{
+    "name": "FDS Core",
+    "version": "1.0.0",
+    "authors": [
+        "Jurek Błaszczyk"
+    ],
+    "main": "dist/js/core.min.js",
+    "description": "FSD Core Module",
+    "license": "Unlicense",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "lib",
+        "test",
+        "tests",
+        "pages",
+        "index.html",
+        "/js"
+    ],
+    "dependencies": {
+        "jsrsasign": "4.x"
+    },
+    "devDependencies": {
+        "system.js": "*"
+    }
+}
